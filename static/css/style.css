@@ -252,7 +252,7 @@ hr {
 }
 
 /* LOGIN */
-.body-login, .aqui{
+.body-login{
   background: var(--color-bg-navbar-solid);
 }
 
