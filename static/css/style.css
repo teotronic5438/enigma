@@ -1,6 +1,19 @@
+:root {
+    --color-bg-navbar-solid:linear-gradient(90deg, #182848 0%, #005ae1 100%);
+    
+}
+
+
 /*********************
     HEADER
 *********************/
+.navbar-gradient {
+  background: var(--color-bg-navbar-solid);
+}
+.sidebar{
+  background: /*linear-gradient(90deg, #264489 0%,*/ #182848 100%;
+}
+
 .header-logo {
   display: flex;
   flex-direction: row;
@@ -59,19 +72,22 @@
 }
 
 #sidebar .nav-link:hover {
-  background-color: #495057;
+  background-color: #ffffff;
   /* más claro que bg-secondary #495057 */
-  color: #ffc107 !important;
+  color: #005ae1 !important;
   /* color destacado: amarillo */
-  border-left: 3px solid #ffc107;
+  border-left: 3px solid #005ae1;
   font-weight: bold;
+}
+h2{
+  color: #e02626;
 }
 
 /*********************
     Footer
 *********************/
 .footer {
-  background-color: rgb(200, 201, 203);
+  background-color: rgb(17, 63, 155);
   /* tu color base */
   color: #2c2c2c;
   /* texto oscuro para contraste */
@@ -115,7 +131,7 @@
 }
 
 .ingresos-table th {
-  background-color: #f2f2f2;
+  background-color: #b3c4e6;
 }
 
 
@@ -124,7 +140,7 @@
 
 /* para el menu */
 .active {
-  background-color: #343a40 !important;
+  background-color: #001d3a !important;
   /* gris más oscuro */
   font-weight: bold;
   border-radius: 0.25rem;
@@ -137,8 +153,8 @@
 ***************************/
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  /*background-color: #f4f4f4;*/
+  color: #4b4b4b;
 }
 
 h1,
@@ -230,6 +246,10 @@ hr {
   margin: 40px auto;
 }
 
+/* LOGIN */
+.body-login, .aqui{
+  background: var(--color-bg-navbar-solid);
+}
 
 
 /* estadistica B */
