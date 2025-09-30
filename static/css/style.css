@@ -32,6 +32,11 @@
   );
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));*/
 }
+.logo_form1{
+  display: block;
+  width: auto;
+  height: 100px;
+}
 
 .titulo-logo {
   text-align: start;

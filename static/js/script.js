@@ -88,7 +88,7 @@ function graficarCanvas(datosGraficoTipo, datosGraficoDestino) {
 
 
         new Chart(ctx, {
-            type: 'bar',
+            type: 'doughnut',
             data: {
                 // Las etiquetas serán el nombre del segmento principal y 'Resto'
                 labels: [mainLabel, 'Resto'],
